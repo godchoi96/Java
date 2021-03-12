@@ -1,0 +1,89 @@
+import java.util.Scanner; //Scanner 객체를 생성하기 위해서는 import가 필요
+
+public class Hello { //클래스 이름은 무조건 대문자로 시작
+	// 변수와 메소드는 모두 소문자로 시작
+	public static int sum(int n, int m) { //n,m은 매개변수
+		return n+m;
+	} //메소드
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		int i = 20; //지역변수
+		int s;
+		char a;
+		final double PI = 3.14; // final 명령어는 상수 선언, 상수명은 항시 대문자로 시작
+		//20, s, a 모두 표현되는 값이므로 리터럴이라고 한다
+		double radius = 10.0;
+		double circleArea = radius * radius * PI;
+		s = sum(i, 10);
+		a = '?';
+		System.out.println(a);
+		System.out.println("Hello");
+		System.out.println(s);
+		System.out.println("원의 면적 = " + circleArea);
+		*/
+		
+		/*
+		System.out.println("이름, 도시, 나이, 체중, 독신 여부를 빈칸으로 분리하여 입력하세요 : ");
+		Scanner scanner = new Scanner(System.in); // 자바 패키지에서 제공하는 클래스 Scanner, System.in을 통한 입력
+		String name = scanner.next();
+		System.out.println("이름은 " + name + ", ");
+		String city = scanner.next();
+		System.out.println("도시는 " + city + ", ");
+		int age = scanner.nextInt();
+		System.out.println("나이는 " + age + "살, ");
+		double weight = scanner.nextDouble();
+		System.out.println("몸무게는 " + weight + "kg, ");
+		boolean isSingle = scanner.nextBoolean();
+		System.out.println("독신 여부는 " + isSingle + "입니다");
+		scanner.close(); //scanner 종료
+		*/
+		
+		/*
+		Scanner scanner = new Scanner(System.in); //입력받기 위해서 Scanner 객체부터
+		
+		System.out.println("시간을 입력하세요 : "); //수를 입력받기 위해
+		int time = scanner.nextInt();
+		int second = time % 60;
+		int minute = (time / 60) % 60;
+		int hour = (time / 60) / 60;
+		
+		System.out.println(time + " 초는");
+		System.out.println(hour + "시 " + minute + "분 " + second + "초입니다.");
+		scanner.close();
+		*/
+		
+		/*
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("점수를 입력하세요 : ");
+		char grade;
+		int score = scanner.nextInt();
+		switch(score / 10) {
+			case 10:
+			case 9:
+				grade = 'A';
+				break;
+			case 8:
+				grade = 'B';
+				break;
+			case 7:
+				grade = 'C';
+				break;
+			case 6:
+				grade = 'D';
+				break;
+			default:
+				grade = 'F';
+		}
+		System.out.println("학점은 " + grade + "입니다.");
+		scanner.close();
+		*/
+		
+		
+		
+		
+	}//메소드
+
+} //클래스
